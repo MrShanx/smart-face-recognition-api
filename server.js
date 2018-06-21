@@ -31,7 +31,7 @@ const db =
 	knex({  //initialization
 	  client: 'pg', //PostgreSQL
 	  connection: {
-	    host : process.env.DATABASE_URL, //127.0.0.1 - home localhost. update with dynamic db IP once hosted on a platform 
+	    connectionString : process.env.DATABASE_URL, //127.0.0.1 - home localhost. update with dynamic db IP once hosted on a platform 
 	    ssl: true,
   	}
 });
