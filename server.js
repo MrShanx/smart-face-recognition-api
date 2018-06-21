@@ -52,7 +52,7 @@ app.use(bodyParser.json());
 app.use(cors());
 
 
-// app.get('/', (req, res) => { res.send(database.users) });
+app.get('/', (req, res) => { res.send("working...") });
 
 //KNEX - signin route - signs in valid user
 //call on imported signin function in sigin.js
