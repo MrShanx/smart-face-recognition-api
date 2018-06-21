@@ -2,9 +2,8 @@ const Clarifai = require('clarifai');
 
 //Clarifai Demo API 
 const app = new Clarifai.App({
-  // MY API KEY - cad8df1bb71b4f0a822797a7bae79204
   // Most API require/import these types of keys to use their service
- apiKey: 'cad8df1bb71b4f0a822797a7bae79204'
+ apiKey: process.env.CLARIFAI_KEY //config Vars heroku server settings
 });
 
 //moved API key (call) from being visible in front-end to back-end 
