@@ -5,6 +5,7 @@ SERVER API ENDPOINTS
 /register --> POST = user
 /profile/:userId --> GET = user
 /image --> PUT = user
+/imageurl --> POST = clarifai data
 /rankings --> GET = user 
 */
 
