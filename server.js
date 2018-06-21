@@ -31,7 +31,7 @@ const db =
 	knex({  //initialization
 	  client: 'pg', //PostgreSQL
 	  connection: {
-	    host : '127.0.0.1', //127.0.0.1 - home localhost. update with db IP once hosted on a platform 
+	    host : 'postgresql-clean-87472', //127.0.0.1 - home localhost. update with db IP once hosted on a platform 
 	    user : 'postgres', //owner of db - \d on psql
 	    password : 'janeyBUGS06*', //no password
 	    database : 'smart_brain' //db name
