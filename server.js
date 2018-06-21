@@ -79,6 +79,7 @@ app.get('/rankings', (req, res) => { rankings.handleRankingsGet(req, res, db) })
 
 //sets localhost to 3000 and listens for requests
 const PORT = process.env.PORT;
+//app.list(process.env.PORT || 3001, ()=> {
 app.listen(PORT, ()=> {
 	console.log(`app is running on port ${PORT}`);
 });
